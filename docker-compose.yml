@@ -4,4 +4,4 @@ services:
     restart: always
     container_name: 'spotify-web'
     ports:
-      - 3000:80
+      - 3333:3333
