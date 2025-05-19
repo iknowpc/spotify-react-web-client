@@ -1,8 +1,6 @@
 services:
   web:
     build: .
-    env_file:
-      - .env
     restart: always
     container_name: 'spotify-web'
     ports:
